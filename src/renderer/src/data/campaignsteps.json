@@ -270,5 +270,1167 @@
         "instruction": "Speak to Hooded One - Go to [reward](Act 2)"
       }
     ]
+  },
+  {
+    "order": 23,
+    "zone": "Vastiri Outskirts",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Rathbreaker), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Ardura Caravan)"
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "zone": "Ardura Caravan",
+    "steps": [
+      {
+        "instruction": "Desert Map to [zone](Mawdun Quarry)"
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "zone": "Mawdun Quarry",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Mawdun Mine)"
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "zone": "Mawdun Mine",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Rudja, the Dread Engineer)"
+      },
+      {
+        "instruction": "Open Cage, Talk to [npc](Risu), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Halani Gates)"
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "zone": "Halani Gates",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Asala), Go to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Traitor's Passage)"
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "zone": "Traitor's Passage",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Activate Ancient Seal (middle of zone)"
+      },
+      {
+        "instruction": "Activate 3 [reward](Runic Seals)"
+      },
+      {
+        "instruction": "Kill [enemy](Balbala, the Traitor)",
+        "reward": "[reward](Balbala's Barya)"
+      },
+      {
+        "instruction": "Go to [zone](Halani Gates)"
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "zone": "Halani Gates",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Asala)"
+      },
+      {
+        "instruction": "Defeat [enemy](Jamanra, the Risen King), Go to sandstorm, Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Keth)"
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "zone": "Keth",
+    "steps": [
+      {
+        "instruction": "Kill serpents for [reward](Kabala Clan Relic)"
+      },
+      {
+        "instruction": "Kill [enemy](Kabala, Constrictor Queen)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Go to [zone](Lost City)"
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "zone": "Lost City",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Buried Shrines), Go to [zone](Heart of Keth)"
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "zone": "Heart of Keth",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Azarian, the Forsaken Son), Talk to Water Goddess"
+      },
+      {
+        "instruction": "Take [reward](Everburning Cinders), Ignite Water Goddess"
+      },
+      {
+        "instruction": "Take [reward](The Essence of Water), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Mastodon Badlands)"
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "zone": "Mastodon Badlands",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Lightless Passage) (center of zone), Go to [zone](Well of Souls)"
+      }
+    ]
+  },
+  {
+    "order": 39,
+    "zone": "Well of Souls",
+    "steps": [
+      {
+        "instruction": "Speak to Lurking Creature (Reveal Desecrated mods), Speak to [npc](Sin)"
+      },
+      {
+        "instruction": "Waypoint to [zone](Lightless Passage), Return to [zone](Mastodon Badlands)"
+      }
+    ]
+  },
+  {
+    "order": 40,
+    "zone": "Mastodon Badlands",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Bone Pits)"
+      }
+    ]
+  },
+  {
+    "order": 41,
+    "zone": "Bone Pits",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill monsters for [reward](Sun Clan Relic)"
+      },
+      {
+        "instruction": "Go to [zone](Blackrib Pit), Kill [enemy](Iktab, the Deathlord) and [enemy](Ekbab, Ancient Steed)"
+      },
+      {
+        "instruction": "Take [reward](Mastodon Tusks), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 42,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Valley of Titans)"
+      }
+    ]
+  },
+  {
+    "order": 43,
+    "zone": "Valley of Titans",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Activate Medallion near WP (Charm bonus, can be changed)"
+      },
+      {
+        "instruction": "Activate 3 Ancient Seals around the zone, Enter [zone](Titan Grotto)"
+      }
+    ]
+  },
+  {
+    "order": 44,
+    "zone": "Titan Grotto",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Zalmarath, the Colossus)",
+        "reward": "[reward](The Flame Ruby)"
+      },
+      {
+        "instruction": "Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 45,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs for [reward](The Horn of the Vastiri), Desert Map to [zone](Traitor's Passage)"
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "zone": "Traitor's Passage",
+    "steps": [
+      {
+        "instruction": "Go to front of caravan, Sound The Horn"
+      },
+      {
+        "instruction": "Talk to NPCs, Desert Map to [zone](Deshar)"
+      }
+    ]
+  },
+  {
+    "order": 47,
+    "zone": "Deshar",
+    "steps": [
+      {
+        "instruction": "Find [reward](Lailuma's Body) (Fallen Dekhara), Take [reward](Final Letter)"
+      },
+      {
+        "instruction": "Kill [enemy](Hunin, Storm Caller) and [enemy](Mugin, Frost Bringer), Take [reward](Djinn Barya), Go to [zone](Path of Mourning)"
+      }
+    ]
+  },
+  {
+    "order": 48,
+    "zone": "Path of Mourning",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Spires of Deshar)"
+      }
+    ]
+  },
+  {
+    "order": 49,
+    "zone": "Spires of Deshar",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Activate Sisters of Garukhan shrine (Lightning Resistance boost)"
+      },
+      {
+        "instruction": "Kill [enemy](Tor Gul, the Defiler), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 50,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to NPCs ([reward](2 Skill Points)), Desert Map to [zone](Dreadnought)",
+        "reward": "[reward](2 Skill Points)"
+      }
+    ]
+  },
+  {
+    "order": 51,
+    "zone": "Dreadnought",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Dreadnought Vanguard), Tag Waypoint"
+      },
+      {
+        "instruction": "Kill [enemy](Jamanra, the Abomination), Portal to [zone](Town (Ardura Caravan))"
+      }
+    ]
+  },
+  {
+    "order": 52,
+    "zone": "Town (Ardura Caravan)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to [npc](Asala), Go to [reward](Act 3)"
+      }
+    ]
+  },
+  {
+    "order": 53,
+    "zone": "Sandswept Marsh",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Ziggurat Encampment)"
+      }
+    ]
+  },
+  {
+    "order": 54,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Jungle Ruins) (top)"
+      }
+    ]
+  },
+  {
+    "order": 55,
+    "zone": "Jungle Ruins",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Mighty Silverfist)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Go to [zone](Venom Crypts) (center of zone near WP)"
+      }
+    ]
+  },
+  {
+    "order": 56,
+    "zone": "Venom Crypts",
+    "steps": [
+      {
+        "instruction": "Take [reward](Corpse-snake Venom) from Corpse (end of zone), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 57,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Servi) (Various boosts, cannot be changed), Waypoint to [zone](Jungle Ruins), Go to [zone](Infested Barrens) (opposite from WP)"
+      }
+    ]
+  },
+  {
+    "order": 58,
+    "zone": "Infested Barrens",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Alva), Go to [zone](Azag Bog)"
+      }
+    ]
+  },
+  {
+    "order": 59,
+    "zone": "Azag Bog",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Servi)"
+      },
+      {
+        "instruction": "Kill [enemy](Ignagduk, the Bog Witch)",
+        "reward": "[reward](30 Spirit)"
+      },
+      {
+        "instruction": "Take [reward](Ignagduk's Ghastly Spear), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 60,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Waypoint to [zone](Infested Barrens), Go to [zone](Chimeral Wetlands) (opposite Azag Bog)"
+      }
+    ]
+  },
+  {
+    "order": 61,
+    "zone": "Chimeral Wetlands",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Xyclucian, the Chimera), Take [reward](Chimeral Inscribed Ultimatum)"
+      },
+      {
+        "instruction": "Go to [zone](Jiquani's Machinarium) (within boss arena)"
+      }
+    ]
+  },
+  {
+    "order": 62,
+    "zone": "Jiquani's Machinarium",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Alva), Take [reward](Small Soul Core), Activate Stone Altar"
+      },
+      {
+        "instruction": "Take [reward](Small Soul Core)s, Activate Stone Altars"
+      },
+      {
+        "instruction": "Kill [enemy](Blackjaw, the Remnant) (Fire Resistance boost), Go to [zone](Jiquani's Sanctum)"
+      }
+    ]
+  },
+  {
+    "order": 63,
+    "zone": "Jiquani's Sanctum",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Alva)"
+      },
+      {
+        "instruction": "Find 3 [reward](Medium Soul Core)s, Start 2 Generators (corners of zone)"
+      },
+      {
+        "instruction": "Activate Large Soul Core near Alva"
+      },
+      {
+        "instruction": "Kill [enemy](Zicoatl, Warden of the Core), Take [reward](Large Soul Core), Waypoint to [zone](Infested Barrens)"
+      }
+    ]
+  },
+  {
+    "order": 64,
+    "zone": "Infested Barrens",
+    "steps": [
+      {
+        "instruction": "Activate Stone Altar (near WP), Go to [zone](Matlan Waterways) (nearby)"
+      }
+    ]
+  },
+  {
+    "order": 65,
+    "zone": "Matlan Waterways",
+    "steps": [
+      {
+        "instruction": "Pull all the Canal Levers, Pull the large Canal Lever (end of zone), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 66,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Go down the stairs, Talk to [npc](Alva), Go to [zone](Drowned City)"
+      }
+    ]
+  },
+  {
+    "order": 67,
+    "zone": "Drowned City",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Summon [npc](Oswald), Go to [zone](Molten Vault)"
+      }
+    ]
+  },
+  {
+    "order": 68,
+    "zone": "Molten Vault",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Use Lever, Pull Sluice Gate Lever"
+      },
+      {
+        "instruction": "Kill [enemy](Mektul, the Forgemaster), Take [reward](The Hammer of Kamasa)"
+      },
+      {
+        "instruction": "Talk to [npc](Oswald) (reforging bench), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 69,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Waypoint to [zone](Drowned City), Go to [zone](Apex of Filth)"
+      }
+    ]
+  },
+  {
+    "order": 70,
+    "zone": "Apex of Filth",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint"
+      },
+      {
+        "instruction": "Kill [enemy](Queen of Filth) (end of zone), Take [reward](Temple Door Idol), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 71,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Go down the stairs, Talk to [npc](Alva), Open Door, Go to [zone](Temple of Kopec)"
+      }
+    ]
+  },
+  {
+    "order": 72,
+    "zone": "Temple of Kopec",
+    "steps": [
+      {
+        "instruction": "Climb Stairs twice (corner of pyramid), Kill [enemy](Ketzuli, High Priest of the Sun)"
+      },
+      {
+        "instruction": "Summon [npc](Alva), Investigate Platform, Enter gateway"
+      },
+      {
+        "instruction": "Tag Waypoint (behind gateway), Go down stairs, Go to [zone](Utzaal)"
+      }
+    ]
+  },
+  {
+    "order": 73,
+    "zone": "Utzaal",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Viper Napuatzi)"
+      },
+      {
+        "instruction": "Kill monsters for [reward](Sacrificial Heart), Go to [zone](Aggorat)"
+      }
+    ]
+  },
+  {
+    "order": 74,
+    "zone": "Aggorat",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Go to altar"
+      },
+      {
+        "instruction": "Take [reward](Sacrificial Dagger), Place and stab [reward](Sacrificial Heart)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Go to [zone](Black Chambers)"
+      }
+    ]
+  },
+  {
+    "order": 75,
+    "zone": "Black Chambers",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Doryani, Royal Thaumaturge) and [enemy](Doryani's Triumph)"
+      },
+      {
+        "instruction": "Talk to [npc](Doryani), Portal to [zone](Town (Ziggurat Encampment))"
+      }
+    ]
+  },
+  {
+    "order": 76,
+    "zone": "Town (Ziggurat Encampment)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Doryani) for apocalypse, Talk to NPCs, Talk to [npc](Alva), Go to [reward](Act 4)"
+      }
+    ]
+  },
+  {
+    "order": 77,
+    "zone": "Town (Kingsmarch)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs for Book Charter, Talk to [npc](Makoru), Sail to [zone](Kedge Bay)"
+      }
+    ]
+  },
+  {
+    "order": 78,
+    "zone": "Kedge Bay",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Journey's End), Summon [npc](Tujen)"
+      },
+      {
+        "instruction": "Kill [enemy](Captain Hartlin) (end of zone), Take [reward](Verisium), Portal to [zone](Town (Kingsmarch))"
+      }
+    ]
+  },
+  {
+    "order": 79,
+    "zone": "Town (Kingsmarch)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Dannig) for [reward](Verisium Spikes), Waypoint to [zone](Journey's End)"
+      }
+    ]
+  },
+  {
+    "order": 80,
+    "zone": "Journey's End",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Freya), Activate Karui Totems, Kill [enemy](Omniphobia, Fear Manifest), Portal to [zone](Town (Kingsmarch))"
+      }
+    ]
+  },
+  {
+    "order": 81,
+    "zone": "Town (Kingsmarch)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Tujen)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Isle of Kin)"
+      }
+    ]
+  },
+  {
+    "order": 82,
+    "zone": "Isle of Kin",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](The Blind Beast) (optional), Go to [zone](Volcanic Warrens)"
+      }
+    ]
+  },
+  {
+    "order": 83,
+    "zone": "Volcanic Warrens",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Krutog, Lord of Kin) (end of zone), Talk to [npc](Hooded One), Return to [zone](Ship)"
+      }
+    ]
+  },
+  {
+    "order": 84,
+    "zone": "Ship",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Abandoned Prison)"
+      }
+    ]
+  },
+  {
+    "order": 85,
+    "zone": "Abandoned Prison",
+    "steps": [
+      {
+        "instruction": "Kill monsters for [reward](Chapel Key), Open Chapel Door, Tag Waypoint"
+      },
+      {
+        "instruction": "Activate Goddess of Justice (Flask recovery, can be changed), Use Levers, Go to [zone](Solitary Confinement)"
+      }
+    ]
+  },
+  {
+    "order": 86,
+    "zone": "Solitary Confinement",
+    "steps": [
+      {
+        "instruction": "Use Levers, Kill [enemy](The Prisoner), Talk to [npc](Hooded One), Return to [zone](Ship)"
+      }
+    ]
+  },
+  {
+    "order": 87,
+    "zone": "Ship",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Whakapanu Island)"
+      }
+    ]
+  },
+  {
+    "order": 88,
+    "zone": "Whakapanu Island",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Singing Caverns)"
+      }
+    ]
+  },
+  {
+    "order": 89,
+    "zone": "Singing Caverns",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Diamora, Song of Death), Talk to [npc](Hooded One), Return to [zone](Ship)"
+      }
+    ]
+  },
+  {
+    "order": 90,
+    "zone": "Ship",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Shrike Island)"
+      }
+    ]
+  },
+  {
+    "order": 91,
+    "zone": "Shrike Island",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Scourge of the Skies) (end of zone), Talk to [npc](Hooded One), Return to [zone](Ship)"
+      }
+    ]
+  },
+  {
+    "order": 92,
+    "zone": "Ship",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Eye of Hinekora)"
+      }
+    ]
+  },
+  {
+    "order": 93,
+    "zone": "Eye of Hinekora",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Activate Well of Hinekora"
+      },
+      {
+        "instruction": "Pass 3 tests, Click Pay your Respects (Mana boost), Go to [zone](Halls of the Dead) (further down)"
+      }
+    ]
+  },
+  {
+    "order": 94,
+    "zone": "Halls of the Dead",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Pass Tawhoa's test (Dex/Lightning Resistance), Pass Tasalio's test (Int/Cold Resistance), Pass Ngamahu's test (Str/Fire Resistance)"
+      },
+      {
+        "instruction": "Defeat [enemy](Yama The White), Take [reward](Silver Coin), Go to [zone](Trial of the Ancestors)"
+      }
+    ]
+  },
+  {
+    "order": 95,
+    "zone": "Trial of the Ancestors",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Talk to [npc](Navali), Take [reward](Tattoo of Hinekora) ([reward](2 Skill Points)), Return to [zone](Ship)"
+      }
+    ]
+  },
+  {
+    "order": 96,
+    "zone": "Ship",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Makoru), Sail to [zone](Arastas)"
+      }
+    ]
+  },
+  {
+    "order": 97,
+    "zone": "Arastas",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Talk to [npc](Missionary Lorandis), Enter church, Exit church, Destroy forcefield"
+      },
+      {
+        "instruction": "Kill [enemy](Torvian, Hand of the Saviour), Go to [zone](Excavation)"
+      }
+    ]
+  },
+  {
+    "order": 98,
+    "zone": "Excavation",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Benedictus, First Herald of Utopia), Enter forge, Talk to [npc](Hooded One), Portal to [zone](Town (Kingsmarch))"
+      }
+    ]
+  },
+  {
+    "order": 99,
+    "zone": "Town (Kingsmarch)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to [npc](Rhodri) at the ship, Sail to [zone](Ngakanu)"
+      }
+    ]
+  },
+  {
+    "order": 100,
+    "zone": "Ngakanu",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Heart of the Tribe)"
+      }
+    ]
+  },
+  {
+    "order": 101,
+    "zone": "Heart of the Tribe",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Tavakai, the Chieftain), [enemy](Tavakai, the Fallen), and [enemy](Tavakai, the Consumed), Portal to [zone](Town (Kingsmarch))"
+      }
+    ]
+  },
+  {
+    "order": 102,
+    "zone": "Town (Kingsmarch)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to [npc](Hooded One), Go to [zone](Ogham, Vastiri, or Mount Kriar)"
+      }
+    ]
+  },
+  {
+    "order": 103,
+    "zone": "Town (The Refuge)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Scorched Farmlands) (bottom exit)"
+      }
+    ]
+  },
+  {
+    "order": 104,
+    "zone": "Scorched Farmlands",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Heldra of the Black Pyre) and [enemy](Isolde of the White Shroud), Go to [zone](Stones of Serle)"
+      }
+    ]
+  },
+  {
+    "order": 105,
+    "zone": "Stones of Serle",
+    "steps": [
+      {
+        "instruction": "Activate all Runed Megaliths, Go to center rune"
+      },
+      {
+        "instruction": "Kill [enemy](Siora, Blade of the Mists), Talk to [npc](Una), Go to [zone](Scorched Farmlands)"
+      }
+    ]
+  },
+  {
+    "order": 106,
+    "zone": "Scorched Farmlands",
+    "steps": [
+      {
+        "instruction": "Go to darkness, Go to [zone](Blackwood), Go to [zone](Holten)"
+      }
+    ]
+  },
+  {
+    "order": 107,
+    "zone": "Holten",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Wolvenhold)"
+      }
+    ]
+  },
+  {
+    "order": 108,
+    "zone": "Wolvenhold",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Oswin, the Dread Warden), Go to [zone](Holten), Go to [zone](Holten Estate)",
+        "reward": "[reward](2 Skill Points)"
+      }
+    ]
+  },
+  {
+    "order": 109,
+    "zone": "Holten Estate",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Go upstairs then downstairs"
+      },
+      {
+        "instruction": "Kill [enemy](Thane Wulfric) and [enemy](Lady Elswyth) (ground floor), Portal to [zone](Town (The Refuge))"
+      }
+    ]
+  },
+  {
+    "order": 110,
+    "zone": "Town (The Refuge)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to [npc](Hooded One), Go to [zone](Vastiri)"
+      }
+    ]
+  },
+  {
+    "order": 111,
+    "zone": "Town (The Khari Bazaar)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Khari Crossing)"
+      }
+    ]
+  },
+  {
+    "order": 112,
+    "zone": "Khari Crossing",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Akthi, the Final Sting) and [enemy](Anundr, the Sandworm) (top right), Portal to [zone](Town (The Khari Bazaar))"
+      }
+    ]
+  },
+  {
+    "order": 113,
+    "zone": "Town (The Khari Bazaar)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Risu)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Return to [zone](Khari Crossing)"
+      }
+    ]
+  },
+  {
+    "order": 114,
+    "zone": "Khari Crossing",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Skullmaw Stairway) (top left), Take [reward](Molten One's Gift) (Life boost), Return to [zone](Khari Crossing)"
+      },
+      {
+        "instruction": "Go to [zone](Pools of Khatal) (bottom left)"
+      }
+    ]
+  },
+  {
+    "order": 115,
+    "zone": "Pools of Khatal",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Go to [zone](Sel Khari Sanctuary)"
+      }
+    ]
+  },
+  {
+    "order": 116,
+    "zone": "Sel Khari Sanctuary",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Elzarah, the Cobra Lord), Talk to [npc](Asala), Portal to [zone](Town (The Khari Bazaar))"
+      }
+    ]
+  },
+  {
+    "order": 117,
+    "zone": "Town (The Khari Bazaar)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Khari Crossing), Go to [zone](Galai Gates) (left)"
+      }
+    ]
+  },
+  {
+    "order": 118,
+    "zone": "Galai Gates",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Vornas, the Fell Flame), Go to [zone](Qimah)"
+      }
+    ]
+  },
+  {
+    "order": 119,
+    "zone": "Qimah",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Activate Seven Pillars (Various boosts, can be changed)"
+      },
+      {
+        "instruction": "Summon [npc](Jado) (end of zone), Go to [zone](Qimah Reservoir)"
+      }
+    ]
+  },
+  {
+    "order": 120,
+    "zone": "Qimah Reservoir",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Azmadi, the Faridun Prince), Activate Grand Barya, Talk to [npc](Jado), Portal to [zone](Town (The Khari Bazaar))"
+      }
+    ]
+  },
+  {
+    "order": 121,
+    "zone": "Town (The Khari Bazaar)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Talk to [npc](Hooded One), Go to [zone](Mount Kriar)"
+      }
+    ]
+  },
+  {
+    "order": 122,
+    "zone": "Town (The Glade)",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Go to [zone](Ashen Forest)"
+      }
+    ]
+  },
+  {
+    "order": 123,
+    "zone": "Ashen Forest",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Kriar Village)"
+      }
+    ]
+  },
+  {
+    "order": 124,
+    "zone": "Kriar Village",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Lythara, the Wayward Spear)",
+        "reward": "[reward](40 Spirit)"
+      },
+      {
+        "instruction": "Go to [zone](Glacial Tarn)"
+      }
+    ]
+  },
+  {
+    "order": 125,
+    "zone": "Glacial Tarn",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Go to [zone](Howling Caves)"
+      }
+    ]
+  },
+  {
+    "order": 126,
+    "zone": "Howling Caves",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](The Abominable Yeti), Take [reward](Icy Tusks), Portal to [zone](Town (The Glade))"
+      }
+    ]
+  },
+  {
+    "order": 127,
+    "zone": "Town (The Glade)",
+    "steps": [
+      {
+        "instruction": "Talk to [npc](Hilda)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Waypoint to [zone](Glacial Tarn)"
+      }
+    ]
+  },
+  {
+    "order": 128,
+    "zone": "Glacial Tarn",
+    "steps": [
+      {
+        "instruction": "Kill [enemy](Rakkar, the Frozen Talon), Go to [zone](Kriar Peaks)"
+      }
+    ]
+  },
+  {
+    "order": 129,
+    "zone": "Kriar Peaks",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Take gift from [npc](Elder Madox), Go to [zone](Etched Ravine)"
+      }
+    ]
+  },
+  {
+    "order": 130,
+    "zone": "Etched Ravine",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Stormgore, the Guardian), Go to [zone](Cuachic Vault)"
+      }
+    ]
+  },
+  {
+    "order": 131,
+    "zone": "Cuachic Vault",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint, Kill [enemy](Zelina, Blood Priestess) and [enemy](Zolin, Blood Priest), Summon [npc](Doryani), Portal to [zone](Town (The Glade))"
+      }
+    ]
+  },
+  {
+    "order": 132,
+    "zone": "Kingsmarch (Act 4 town)",
+    "steps": [
+      {
+        "instruction": "Waypoint to [zone](Kingsmarch (Act 4 town)), Talk to NPCs, Talk to [npc](Hooded One)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Travel to [zone](Oriath)"
+      }
+    ]
+  },
+  {
+    "order": 133,
+    "zone": "The Ziggurat Refuge",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs, Run one map in Ziggurat to unlock maps, Start mapping in hideout"
+      }
+    ]
   }
 ]
