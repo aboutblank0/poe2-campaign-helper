@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Draggable from 'react-draggable'
+import { useAppContext } from './contexts/appContext'
 
 type CampaignStep = {
   id: number
@@ -20,7 +21,7 @@ const steps: CampaignStep[] = [
 ]
 
 function App(): React.JSX.Element {
-  const [hasFocus, setHasFocus] = useState<boolean>(false)
+  const { hasFocus } = useAppContext()
   const [index, setIndex] = useState<number>(0)
 
   const handleBack = useCallback(() => {
@@ -35,19 +36,15 @@ function App(): React.JSX.Element {
   useEffect(() => {
     const unregisterBack = window.electron.ipcRenderer.on('back', handleBack)
     const unregisterNext = window.electron.ipcRenderer.on('next', handleNext)
-    const unregisterFocus = window.electron.ipcRenderer.on('focus', () => setHasFocus(true))
-    const unregisterBlur = window.electron.ipcRenderer.on('blur', () => setHasFocus(false))
 
     return () => {
       unregisterBack()
       unregisterNext()
-      unregisterFocus()
-      unregisterBlur()
     }
   }, [handleBack, handleNext])
 
   return (
-    <div className="main-container">
+    <div className={`main-container ${hasFocus ? 'focus' : ''}`}>
       <h1>{hasFocus ? 'FOCUSED' : 'NOT FOCUSED'}</h1>
       <CampaignStepComponent {...steps[index]} />
     </div>

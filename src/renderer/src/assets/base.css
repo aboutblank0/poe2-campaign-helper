@@ -17,6 +17,10 @@ body,
   right: 2px;
 }
 
+.main-container.focus {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .campaign-step {
   width: 300px;
   height: 100px;
