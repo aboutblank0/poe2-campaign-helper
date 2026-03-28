@@ -41,7 +41,7 @@ app.whenReady().then(() => {
 
   const mainWindow = createWindow()
   const gameWindow = new GameOverlayWindow(mainWindow)
-  gameWindow.attach('Untitled - Notepad')
+  gameWindow.attach('Path of Exile 2')
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the

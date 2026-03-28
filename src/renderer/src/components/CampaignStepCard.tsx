@@ -2,6 +2,7 @@ import './../assets/campaignstep.css'
 
 import { useAppContext } from '@renderer/contexts/appContext'
 import { renderSmartStep } from '@renderer/util/campaignStepParser'
+import { useLayoutEffect, useRef, useState } from 'react'
 import { Rnd } from 'react-rnd'
 
 export interface CampaignStepGroup {
@@ -16,18 +17,36 @@ interface CampaignStep {
   optional?: boolean
 }
 
+const DEFAULT_STEP_CARD_WIDTH = 300
+const DEFAULT_STEP_CARD_HEIGHT = 200
+const MIN_STEP_CARD_WIDTH = 100
+const MIN_STEP_CARD_HEIGHT = 100
+
+const getDefaultPosition = () => ({
+  x: Math.round((window.innerWidth - DEFAULT_STEP_CARD_WIDTH) / 2),
+  y: Math.round(window.innerHeight - DEFAULT_STEP_CARD_HEIGHT)
+})
+
 export const CampaignStepCard = (step: CampaignStepGroup) => {
   const { hasFocus } = useAppContext()
+  const [defaultPosition, setDefaultPosition] = useState(getDefaultPosition())
 
-  // default position should be at the bottom middle of the screen
-  const defaultX = window.innerWidth / 2 - 160 // 320 is the width of the card
-  const defaultY = window.innerHeight - 220 // 200 is the height of the card + some margin
+  useLayoutEffect(() => {
+    const handleResize = () => setDefaultPosition(getDefaultPosition())
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   return (
     <Rnd
-      default={{ x: defaultX, y: defaultY, width: 320, height: 200 }}
-      minHeight={100}
-      minWidth={100}
+      default={{
+        x: defaultPosition.x,
+        y: defaultPosition.y,
+        width: DEFAULT_STEP_CARD_WIDTH,
+        height: DEFAULT_STEP_CARD_HEIGHT
+      }}
+      minHeight={MIN_STEP_CARD_HEIGHT}
+      minWidth={MIN_STEP_CARD_WIDTH}
       dragGrid={[10, 10]}
       resizeGrid={[10, 10]}
       bounds="parent"
