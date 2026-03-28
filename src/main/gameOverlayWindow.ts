@@ -57,6 +57,8 @@ export class GameOverlayWindow {
       OverlayController.activateOverlay()
       this._window.webContents.send('focus')
     }
+
+    this._overlayFocused = !this._overlayFocused
   }
 
   private unregisterShortcuts() {
@@ -66,6 +68,13 @@ export class GameOverlayWindow {
 
   private gameFocusChange(value: boolean) {
     this._gameFocused = value
+
+    if (value) {
+      this._overlayFocused = false
+      OverlayController.focusTarget()
+      this._window.webContents.send('blur')
+    }
+
     this.updateShortcuts()
   }
 
