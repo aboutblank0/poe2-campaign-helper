@@ -1,12 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
-import Draggable from 'react-draggable'
+import { useCallback, useEffect, useState } from 'react'
 import { useAppContext } from './contexts/appContext'
-
-type CampaignStep = {
-  id: number
-  instruction: string
-  imageUrl?: string
-}
+import { CampaignStep, CampaignStepCard } from './components/CampaignStep'
 
 // WIP
 const steps: CampaignStep[] = [
@@ -46,20 +40,8 @@ function App(): React.JSX.Element {
   return (
     <div className={`main-container ${hasFocus ? 'focus' : ''}`}>
       <h1>{hasFocus ? 'FOCUSED' : 'NOT FOCUSED'}</h1>
-      <CampaignStepComponent {...steps[index]} />
+      <CampaignStepCard {...steps[index]} />
     </div>
-  )
-}
-
-const CampaignStepComponent = (step: CampaignStep) => {
-  const nodeRef = useRef(null)
-  return (
-    <Draggable nodeRef={nodeRef} bounds="parent">
-      <div className="campaign-step" ref={nodeRef}>
-        <p>ID: {step.id}</p>
-        <h1>{step.instruction}</h1>
-      </div>
-    </Draggable>
   )
 }
 

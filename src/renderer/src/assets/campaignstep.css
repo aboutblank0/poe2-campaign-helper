@@ -1,0 +1,35 @@
+.campaign-step {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  overflow: hidden;
+}
+
+/* top-left + bottom-right corners */
+.campaign-step.focus::before,
+.campaign-step.focus::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 4px solid black;
+}
+
+.campaign-step.focus::before {
+  top: 2px;
+  left: 2px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.campaign-step.focus::after {
+  bottom: 2px;
+  right: 2px;
+  border-left: none;
+  border-top: none;
+}
+
+.campaign-step-inner {
+  margin: 4px;
+  display: flex;
+}
