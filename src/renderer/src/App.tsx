@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import Draggable from 'react-draggable'
 
 type CampaignStep = {
   id: number
@@ -6,6 +7,7 @@ type CampaignStep = {
   imageUrl?: string
 }
 
+// WIP
 const steps: CampaignStep[] = [
   {
     id: 1,
@@ -18,6 +20,7 @@ const steps: CampaignStep[] = [
 ]
 
 function App(): React.JSX.Element {
+  const [hasFocus, setHasFocus] = useState<boolean>(false)
   const [index, setIndex] = useState<number>(0)
 
   const handleBack = useCallback(() => {
@@ -30,32 +33,36 @@ function App(): React.JSX.Element {
 
   // Register the events
   useEffect(() => {
-    const back = window.electron.ipcRenderer.on('back', handleBack)
-    const next = window.electron.ipcRenderer.on('next', handleNext)
+    const unregisterBack = window.electron.ipcRenderer.on('back', handleBack)
+    const unregisterNext = window.electron.ipcRenderer.on('next', handleNext)
+    const unregisterFocus = window.electron.ipcRenderer.on('focus', () => setHasFocus(true))
+    const unregisterBlur = window.electron.ipcRenderer.on('blur', () => setHasFocus(false))
+
     return () => {
-      back()
-      next()
+      unregisterBack()
+      unregisterNext()
+      unregisterFocus()
+      unregisterBlur()
     }
   }, [handleBack, handleNext])
 
-  const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
-
   return (
-    <div>
+    <div className="main-container">
+      <h1>{hasFocus ? 'FOCUSED' : 'NOT FOCUSED'}</h1>
       <CampaignStepComponent {...steps[index]} />
-      <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
-        Send IPC
-      </a>
     </div>
   )
 }
 
 const CampaignStepComponent = (step: CampaignStep) => {
+  const nodeRef = useRef(null)
   return (
-    <div>
-      <p>ID: {step.id}</p>
-      <h1>{step.instruction}</h1>
-    </div>
+    <Draggable nodeRef={nodeRef} bounds="parent">
+      <div className="campaign-step" ref={nodeRef}>
+        <p>ID: {step.id}</p>
+        <h1>{step.instruction}</h1>
+      </div>
+    </Draggable>
   )
 }
 

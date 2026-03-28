@@ -1,10 +1,7 @@
-interface ExampleAPI {
+export type ExampleAPI = {
   getRandomNumber: () => number
 }
 
-const exampleApi: ExampleAPI = {
+export const exampleApi: ExampleAPI = {
   getRandomNumber: () => Math.random()
 }
-
-export { exampleApi }
-export type { ExampleAPI }

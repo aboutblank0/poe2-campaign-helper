@@ -1,14 +1,14 @@
-import { app, shell, BrowserWindow, ipcMain } from 'electron'
+import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'path'
 import { electronApp, is } from '@electron-toolkit/utils'
-import { OVERLAY_WINDOW_OPTS, OverlayController } from 'electron-overlay-window'
-import { registerShortcuts } from './shortcuts'
+import { OVERLAY_WINDOW_OPTS } from 'electron-overlay-window'
+import { GameOverlayWindow } from './gameOverlayWindow'
 
 function createWindow(): BrowserWindow {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 500,
-    height: 500,
+    width: 400,
+    height: 300,
     webPreferences: {
       contextIsolation: true,
       sandbox: false,
@@ -29,9 +29,6 @@ function createWindow(): BrowserWindow {
   } else {
     mainWindow.loadFile(join(__dirname, '../renderer/index.html'))
   }
-
-  OverlayController.attachByTitle(mainWindow, 'Notepad')
-
   return mainWindow
 }
 
@@ -42,17 +39,20 @@ app.whenReady().then(() => {
   // Set app user model id for windows
   electronApp.setAppUserModelId('com.electron')
 
-  // IPC test
-  ipcMain.on('ping', () => console.log('pong'))
-
   const mainWindow = createWindow()
-  registerShortcuts(mainWindow)
+  const gameWindow = new GameOverlayWindow(mainWindow)
+  gameWindow.attach('Untitled - Notepad')
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
+
+  // Open the DevTools in development mode.
+  if (is.dev) {
+    mainWindow.webContents.openDevTools({ mode: 'detach', activate: false })
+  }
 })
 
 // Quit when all windows are closed, except on macOS. There, it's common
