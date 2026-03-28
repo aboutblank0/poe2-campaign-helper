@@ -1,0 +1,274 @@
+[
+  {
+    "order": 1,
+    "zone": "Riverbank",
+    "steps": [
+      {
+        "instruction": "Defeat [enemy](Bloated Miller) - Go to [zone](Clearfell Encampment)"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Talk to NPCs - Go to [zone](Clearfell)"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "zone": "Clearfell",
+    "steps": [
+      {
+        "instruction": "(N) or (NE) from Waypoint, Kill [enemy](Beira of the Rotten Pack)",
+        "reward": "[reward](10% Cold Resistance)"
+      },
+      {
+        "instruction": "Find exit to [zone](Grelwood)"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "zone": "Grelwood",
+    "steps": [
+      {
+        "instruction": "Find Waypoint (center of the zone) - Summon Una"
+      },
+      {
+        "instruction": "Go to [zone](Red Vale) - (opposite side)"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "zone": "Red Vale",
+    "steps": [
+      {
+        "instruction": "Find the three obelisks & kill [enemy](The Rust King)"
+      },
+      {
+        "instruction": "Portal to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs, get [reward](Runed Spikes) from Renly"
+      },
+      {
+        "instruction": "Waypoint to [zone](Grelwood)"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "zone": "Grelwood",
+    "steps": [
+      {
+        "instruction": "Activate the 3 [reward](Runic Seals)"
+      },
+      {
+        "instruction": "Portal to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs"
+      },
+      {
+        "instruction": "Waypoint to [zone](Grelwood)"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "zone": "Grelwood",
+    "steps": [
+      {
+        "instruction": "Go to [zone](Grim Tangle)"
+      },
+      {
+        "instruction": "Summon Una"
+      },
+      {
+        "instruction": "Find exit to [zone](Cemetery of the Eternals)"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "zone": "Cemetery of the Eternals",
+    "steps": [
+      {
+        "instruction": "Enter [zone](Mausoleum of the Praetor) - Kill [enemy](Draven, the Eternal Praetor)"
+      },
+      {
+        "instruction": "Enter [zone](Tomb of the Consort) - Kill [enemy](Asinia, the Praetor's Consort)"
+      },
+      {
+        "instruction": "Speak to Lachlann - Kill [enemy](Lachlann, the Endless lament) - Go to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs"
+      },
+      {
+        "instruction": "Waypoint to [zone](Hunting Grounds)"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "zone": "Hunting Grounds",
+    "steps": [
+      {
+        "instruction": "Find and kill [enemy](The Crowbell)",
+        "reward": "[reward](2 Skill Points)"
+      },
+      {
+        "instruction": "Go to [zone](Freythorn)"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "zone": "Freythorn",
+    "steps": [
+      {
+        "instruction": "Complete all Rituals - Kill [enemy](The King in the Mists)",
+        "reward": "[reward](30 Spirit)"
+      },
+      {
+        "instruction": "Speak to Finn - Portal to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs"
+      },
+      {
+        "instruction": "Waypoint to [zone](Hunting Grounds) - Go to [zone](Ogham Farmlands)"
+      },
+      {
+        "instruction": "OR Waypoint to [zone](Ogham Farmlands) if previously found."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs"
+      },
+      {
+        "instruction": "Waypoint to [zone](Hunting Grounds) - Go to [zone](Ogham Farmlands)"
+      },
+      {
+        "instruction": "OR Waypoint to [zone](Ogham Farmlands) if previously found."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "zone": "Ogham Farmlands",
+    "steps": [
+      {
+        "instruction": "Find [reward](Una's Lute) - somewhere in middle of zone"
+      },
+      {
+        "instruction": "Find exit to [zone](Ogham Village)"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "zone": "Ogham Village",
+    "steps": [
+      {
+        "instruction": "(ONCE PER LEAGUE) Find [reward](Smithing tools)"
+      },
+      {
+        "instruction": "Kill [enemy](The Executioner) - end of zone"
+      },
+      {
+        "instruction": "Use [reward](Lever) - Talk to Leitis - Go to [zone](Manor Ramparts)"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "zone": "Manor Ramparts",
+    "steps": [
+      {
+        "instruction": "Tag Waypoint - Go to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs - Waypoint to [zone](Manor Ramparts)",
+        "reward": "[reward](2 Skill Points)"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "zone": "Manor Ramparts",
+    "steps": [
+      {
+        "instruction": "Find exit to [zone](Ogham Manor)"
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "zone": "Ogham Manor",
+    "steps": [
+      {
+        "instruction": "Find and Kill [enemy](Candlemass, The living Rite)",
+        "reward": "[reward](+Max Life)"
+      },
+      {
+        "instruction": "Find the door to go downstairs to the arena"
+      },
+      {
+        "instruction": "Kill [enemy](Count Geoner) - Portal to [zone](Town)"
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "zone": "Clearfell Encampment",
+    "steps": [
+      {
+        "instruction": "Speak to NPCs"
+      },
+      {
+        "instruction": "Speak to Hooded One - Go to [reward](Act 2)"
+      }
+    ]
+  }
+]

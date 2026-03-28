@@ -1,13 +1,15 @@
-.campaign-step {
+.campaign-step-card {
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: white;
   overflow: hidden;
+
+  border-radius: 8px;
 }
 
 /* top-left + bottom-right corners */
-.campaign-step.focus::before,
-.campaign-step.focus::after {
+.campaign-step-card.focus::before,
+.campaign-step-card.focus::after {
   content: '';
   position: absolute;
   width: 16px;
@@ -15,21 +17,52 @@
   border: 4px solid black;
 }
 
-.campaign-step.focus::before {
+.campaign-step-card.focus::before {
   top: 2px;
   left: 2px;
   border-right: none;
   border-bottom: none;
 }
 
-.campaign-step.focus::after {
+.campaign-step-card.focus::after {
   bottom: 2px;
   right: 2px;
   border-left: none;
   border-top: none;
 }
 
-.campaign-step-inner {
+.campaign-step-card-inner {
   margin: 4px;
   display: flex;
+  flex-direction: column;
+}
+
+.campaign-step-group {
+  overflow: auto;
+  /* //small font size; */
+  font-size: 14px;
+}
+
+.campaign-step-group__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 20px;
+}
+
+.campaign-step-group__zone {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.campaign-step__instruction {
+  margin-bottom: 4px;
+}
+
+.campaign-step__reward {
+}
+
+.campaign-step__reward-label {
+  font-weight: bold;
 }

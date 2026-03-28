@@ -1,29 +1,29 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useAppContext } from './contexts/appContext'
-import { CampaignStep, CampaignStepCard } from './components/CampaignStep'
+import { CampaignStepCard, CampaignStepGroup } from './components/CampaignStepCard'
+import campaignStepsData from './data/campaignSteps.json'
 
-// WIP
-const steps: CampaignStep[] = [
-  {
-    id: 1,
-    instruction: 'Go over there!'
-  },
-  {
-    id: 2,
-    instruction: 'Okay, now go back to town.'
-  }
-]
+const campaignSteps = campaignStepsData as CampaignStepGroup[]
+const STORAGE_KEY = 'poe2-campaign-helper-last-index'
 
 function App(): React.JSX.Element {
   const { hasFocus } = useAppContext()
-  const [index, setIndex] = useState<number>(0)
+  const [index, setIndex] = useState<number>(() => {
+    const savedIndex = localStorage.getItem(STORAGE_KEY)
+    return savedIndex ? parseInt(savedIndex, 10) : 0
+  })
+
+  // Save the index to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEY, index.toString())
+  }, [index])
 
   const handleBack = useCallback(() => {
     setIndex((prev) => Math.max(prev - 1, 0))
   }, [])
 
   const handleNext = useCallback(() => {
-    setIndex((prev) => Math.min(prev + 1, steps.length - 1))
+    setIndex((prev) => Math.min(prev + 1, campaignSteps.length - 1))
   }, [])
 
   // Register the events
@@ -39,8 +39,7 @@ function App(): React.JSX.Element {
 
   return (
     <div className={`main-container ${hasFocus ? 'focus' : ''}`}>
-      <h1>{hasFocus ? 'FOCUSED' : 'NOT FOCUSED'}</h1>
-      <CampaignStepCard {...steps[index]} />
+      <CampaignStepCard {...campaignSteps[index]} />
     </div>
   )
 }
